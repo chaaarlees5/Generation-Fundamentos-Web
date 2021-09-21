@@ -2,3 +2,111 @@ body {
     background-color: rgb(37, 37, 37);
     color: aliceblue;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-vert {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-media {
+    width: 50px;
+    height: 50px;
+}
+
+#menu li {
+    display: inline;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu li a:hover {
+    color: rgb(203, 131, 231);
+}
+
+.center {
+    text-align: center;
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.adjust-border {
+    margin-right: 84px;
+}
+
+.adjust-sumo {
+    margin-left: 50px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-right {
+    margin-right: 40px;
+}
+
+.margin-left {
+    margin-left: 140px;
+}
+
+.width-text {
+    width: 250px;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.font17 {
+    font-size: 17px;
+}
+
+.end-vert {
+    justify-content: flex-end;
+}
+
+.border-right {
+    border-right: 2px solid;
+}
+
+.border-radius {
+    border-radius: 80%;
+}
+
+.green {
+    color: rgb(90, 240, 90);
+}
+
+.purple {
+    color: rgb(172, 103, 236);
+}
+
+.pink {
+    color: rgb(253, 169, 225);
+}
